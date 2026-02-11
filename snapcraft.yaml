@@ -1,12 +1,13 @@
 name: azure-gadget
-version: '24-0.1'
+version: '26-0.1'
 type: gadget
-base: core24
+base: core26
 summary: Azure gadget for VMs on Azure
 description: |
     This gadget enables Azure VMs to work with Ubuntu Core
 confinement: strict
-grade: stable
+build-base: devel
+grade: devel
 icon: icon.png
 license: GPL-3.0-or-later
 
